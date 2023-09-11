@@ -11,8 +11,8 @@ def endpoint_view(request):
     utc_time = timezone.now().strftime('%Y-%m-%dT%H:%M:%SZ')
 
     # Replace with your GitHub file and repository URLs
-    github_file_url = 'https://github.com/username/repo/blob/main/file_name.ext'
-    github_repo_url = 'https://github.com/username/repo'
+    github_file_url = 'https://github.com/Apholyrender/endpoint_creation/blob/main/endpoint_creation/endpoint_task/apps.py'
+    github_repo_url = 'https://github.com/Apholyrender/endpoint_creation'
 
     response_data = {
         "slack_name": slack_name,
